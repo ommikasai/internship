@@ -1,0 +1,390 @@
+.nav{
+    background-color:white;
+    z-index: 9;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navtop{
+    position: fixed;
+    top: 0;
+    right: 0%;
+    left: 0%;
+}
+.logo
+{
+    float: left;
+    width: 20%;
+    margin-top: 0px;
+}
+.logo img{
+    padding: 0px;
+    width: 60%;
+}
+.navside{
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+}
+.navside a{
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+.navside  a:hover{
+    color: orangered;
+    transition: all ease-in;
+}
+.main{
+    background-image: url('C:/Users/satwi/OneDrive/Desktop/1stop/bharathi/bc.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    margin-bottom: 10px;
+  margin-top: 0%;
+  overflow: hidden;
+}
+.main .main_content{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.main .main_content h2{
+    color: black;
+    font-size: 50px;
+    font-family: cosmic, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.main .main_content .btn{
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 100px;
+   
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color: rgb(81, 15, 224);
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    
+    border-radius: 30px;
+}
+.main .main_content .btn a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+}
+.product h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.product .prodcont{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .prodcont .item{
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .prodcont .item:hover{
+    box-shadow: 0px 3px 65px 0px lightgray;
+}
+.product .prodcont .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .prodcont .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .prodcont .item .item_content h3{
+font-weight: bold;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+.product .prodcont .item  .item_content{
+    text-align: center;
+}
+.product .prodcont .item  .item_content p{
+    padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+}
+.product .prodcont .item  .item_content a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: #4810f2;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: 50px;
+    border: 2px solid white;
+}
+.product .prodcont .item  .item_content a:hover{
+    color: orangered;
+    transition: all in ease-in;
+    border: none;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.product .product_btn a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+}
+.keypoint{
+    padding: 50px;
+}
+.keypoint h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.keypoint .key_container{
+    display: flex;
+}
+.keypoint .key_container .key_content{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+.keypoint .key_container .key_content li{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+    box-shadow: 0px 3px 65px 0px lightgray;
+    border-left:2px solid orange 
+    list-style: none;
+}
+.keypoint .key_container  .key_img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+}
+.keypoint .key_container  .key_img img{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+.aboutus{
+    padding: 100px;
+}
+ .aboutus h2{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    font-family: cosmic,sans-serif;
+    text-transform: uppercase;
+ } 
+ .aboutus p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .testi{
+    padding: 50px;
+ }
+ .testi h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+ }
+ .testi .t_c{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+ }
+ .testi .t_c .item{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: none;
+ }
+ .testi .t_c  .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+ }
+ .testi .t_c .item .item_img{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+.testi .t_c  .item .item_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.testi .t_c .item .item_content h3{
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    }
+    .testi .t_c .item  .item_content{
+        text-align: center;
+    }
+    .testi .t_c .item  .item_content p{
+        padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    }
+    footer {
+      background-color: darkgray;
+      padding: 50px;
+    }
+    footer .pages{
+        text-align: center;
+    }
+    footer .pages{
+        color: black;
+        font-size: 20px;
+        padding: 5px;
+        font-family: cosmic,sans-serif;
+    }
+    footer .pages a{
+        text-decoration: none;
+        margin: 10px;
+        color: blue;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: cosmic,sans-serif;
+    }
+    footer .pages a:hover{
+        color: white;
+        
+    }
+    footer .doc{
+        text-align: center;
+    }
+    footer .doc{
+        color: black;
+        font-size: 20px;
+        padding: 5px;
+        font-family: cosmic,sans-serif;
+    }
+    footer .doc a{
+        text-decoration: none;
+        margin: 10px;
+        color: orangered;
+        font-size: 15px;
+        text-align: center;
+        font-family: cosmic,sans-serif;
+        font-weight: bold;
+    }
+    footer .doc a:hover{
+        color: white;
+        
+    }
+    footer .doc h3{
+        color: black;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+    footer .pages h3{
+        color: black;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+    footer .social{
+        text-align: center;
+    }
+    footer .social{
+        color: black;
+        font-size: 20px;
+        padding: 5px;
+        font-family: cosmic,sans-serif;
+    }
+    footer .social a{
+        text-decoration: none;
+        margin: 10px;
+        color: green;
+        font-size: 30px;
+        text-align: center;
+        font-family: cosmic,sans-serif;
+        font-weight: bold;
+    }
+    footer .social a:hover{
+        color: white;
+        
+    }
+    footer .social h3{
+        color: black;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 5px;
+    }
+    footer .contact{
+        text-align: center;
+    }
+    footer .contact{
+        color: black;
+        font-size: 30px;
+        padding: 5px;
+        font-family: cosmic,sans-serif;
+    }
+    footer .contact a{
+        text-decoration: none;
+        margin: 10px;
+        color: blueviolet;
+        font-size: 30px;
+        text-align: center;
+        font-family: cosmic,sans-serif;
+        font-weight: bold;
+    }
+    footer .contact a:hover{
+        color: white;
+        
+    }
+    footer .contact h3{
+        color: black;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding: 5px;
+    }
